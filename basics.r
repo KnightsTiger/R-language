@@ -132,6 +132,45 @@ ifelse(x%%2==0,x/2,x)
 
 
 
+#lists       __________ A new data type
+
+company <- list( employees = c("EMP1","EMP2","EMP3"),
+                 salary = c(1,2,3),
+                 gender = c("m","m","f")
+)
+
+company
+
+# We can perform the same thing as below without names. 
+
+company <- list(  c("EMP1","EMP2","EMP3"),
+                  c(1,2,3),
+                  c("m","m","f")
+)
+
+company
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
